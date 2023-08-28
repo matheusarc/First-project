@@ -21,7 +21,7 @@ html.light {
   --text-color: black;
   --bg-url: url(./Assets/assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0,0,0,0.5);
-  --surface-color-hover: rgba(0,0,0,0.02);
+  --surface-color-hover: rgba(0, 0, 0, 0.301);
   --highlight-color: rgba(0,0,0,0.1);
   --switch-bg-url: url(./Assets/assets/sun.svg);
 }
@@ -61,6 +61,9 @@ body * {
 }
 #profile img{
   width: 112px;
+  height: 136px;
+  border-radius: 25%;
+  border: 2px solid rgba(0, 0, 0, 0.342);
 }
 #profile p {
   font-weight: 500;
