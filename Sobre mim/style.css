@@ -4,23 +4,33 @@ body {
   font-family: 'Inter', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-size: 13.5pt;
-  color: rgb(226, 24, 216);
 }
-
+body h2 {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.5pt;
+  color: rgb(226, 43, 134);
+}
+body p {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.5pt;
+  color: rgba(255, 255, 255, .85);
+}
 .trajetoria {
   display: block;
   margin: auto;
-  width: 98%;
+  width: 95%;
 }
 
 .atualmente {
   display: block;
   margin: auto;
-  width: 98%;
+  width: 95%;
 }
 .atualmente a {
   text-decoration: none;
-  color: rgb(202, 149, 200);
+  color: rgba(255, 158, 252, 0.9);
 }
 .atualmente a:hover {
   text-decoration: underline;
@@ -28,16 +38,23 @@ body {
 .futuro {
   display: block;
   margin: auto;
-  width: 98%;
+  width: 95%;
 }
 /* link para voltar a pag inicial*/
-.voltar a {
+.voltar {
   display: block;
+  text-align: center;
+}
+.voltar a {
   color: rgb(202, 149, 200);
+  padding: 5px;
+  border-radius: 10px;
   text-decoration: none;
-  margin-top: 25px;
-  margin-left: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background .2s ease-in-out;
 }
 .voltar a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.500);
 }
