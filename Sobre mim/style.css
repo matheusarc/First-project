@@ -3,30 +3,42 @@
   padding: 0;
 }
 body {
-  background-color: rgba(0, 0, 0, 0.295);
+  background: url(../Assets/assets/bg-desktop.jpg);
   font-family: 'Inter', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-size: 13.5pt;
+  color: rgb(226, 24, 216);
 }
 .conteiner {
-  border: 1px solid red;
   gap: 10px;
 }
 .trajetoria {
   display: block;
   margin: auto;
   width: 780px;
-  border: 1px solid red;
 }
 .atualmente {
   display: block;
   margin: auto;
   width: 780px;
-  border: 1px solid red;
+}
+.atualmente a {
+  text-decoration: none;
+  color: rgb(202, 149, 200);
+}
+.atualmente a:hover {
+  text-decoration: underline;
 }
 .futuro {
   display: block;
   margin: auto;
   width: 780px;
-  border: 1px solid red;
+}
+/* link para voltar a pag inicial*/
+.voltar a {
+  color: rgb(202, 149, 200);
+  text-decoration: none;
+}
+.voltar a:hover {
+  text-decoration: underline;
 }
