@@ -1,6 +1,6 @@
 
 body {
-  background: url(../Assets/assets/bg-desktop.jpg);
+  background: url(../Assets/assets/bg-desktop.jpg) no-repeat top center/cover;
   font-family: 'Inter', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-size: 13.5pt;
