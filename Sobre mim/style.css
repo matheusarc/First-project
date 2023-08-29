@@ -15,12 +15,12 @@ body {
 .trajetoria {
   display: block;
   margin: auto;
-  width: 780px;
+  width: 100%;
 }
 .atualmente {
   display: block;
   margin: auto;
-  width: 780px;
+  width: 100%;
 }
 .atualmente a {
   text-decoration: none;
@@ -32,12 +32,14 @@ body {
 .futuro {
   display: block;
   margin: auto;
-  width: 780px;
+  width: 100%;
 }
 /* link para voltar a pag inicial*/
 .voltar a {
+  display: block;
   color: rgb(202, 149, 200);
   text-decoration: none;
+  margin-top: 25px;
 }
 .voltar a:hover {
   text-decoration: underline;
