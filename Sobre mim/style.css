@@ -1,7 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+
 body {
   background: url(../Assets/assets/bg-desktop.jpg);
   font-family: 'Inter', sans-serif;
@@ -9,18 +6,17 @@ body {
   font-size: 13.5pt;
   color: rgb(226, 24, 216);
 }
-.conteiner {
-  gap: 10px;
-}
+
 .trajetoria {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 98%;
 }
+
 .atualmente {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 98%;
 }
 .atualmente a {
   text-decoration: none;
@@ -32,7 +28,7 @@ body {
 .futuro {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 98%;
 }
 /* link para voltar a pag inicial*/
 .voltar a {
@@ -40,6 +36,7 @@ body {
   color: rgb(202, 149, 200);
   text-decoration: none;
   margin-top: 25px;
+  margin-left: 5px;
 }
 .voltar a:hover {
   text-decoration: underline;
